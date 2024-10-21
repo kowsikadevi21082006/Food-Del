@@ -348,3 +348,5 @@ export const food_list = [
         category: "Noodles"
     }
 ]
+
+export const url = 'https://food-del-backend-t7qa.onrender.com'
