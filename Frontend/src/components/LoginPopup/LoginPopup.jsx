@@ -4,6 +4,7 @@ import { assets } from '../../assets/frontend_assets/assets'
 import { useContext } from 'react'
 import { StoreContext } from '../../Context/StoreContext'
 import axios from 'axios'
+import BASE_URL from '../../../config'
 
 const LoginPopup = ({setShowLogin}) => {
     
