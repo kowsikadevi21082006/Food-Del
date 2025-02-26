@@ -18,6 +18,6 @@
 
 Backend Deployment Link: [https://food-del-backend-t7qa.onrender.com]
 
-Frontend Deployment Link: [https://food-del-0jez.onrender.com]
+Frontend Deployment Link: [https://subtle-cheesecake-5149d4.netlify.app]
 
-Admin Deployment Link: [https://food-del-admin-u19l.onrender.com]
+Admin Deployment Link: [https://capable-gumption-7be7d2.netlify.app]

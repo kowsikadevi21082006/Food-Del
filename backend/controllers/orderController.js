@@ -7,7 +7,8 @@ const stripe = new Stripe(process.env.STRIPE_SECRET_KEY)
 // placing user order fro frontend
 const placeOrder = async (req,res) => {
 
-    const frontend_url = "https://food-del-0jez.onrender.com"
+    // const frontend_url = "https://food-del-0jez.onrender.com"
+    const frontend_url = "http://localhost:5173"
 
     try {
         const newOrder = new orderModel({
@@ -21,7 +22,7 @@ const placeOrder = async (req,res) => {
 
         const line_items = req.body.items.map((item)=>({
             price_data:{
-                currency:"inr",
+                currency:"USD",
                 product_data:{
                     name:item.name
                 },
@@ -32,7 +33,7 @@ const placeOrder = async (req,res) => {
 
         line_items.push({
             price_data:{
-                currency:"inr",
+                currency:"USD",
                 product_data:{
                     name:"Delivery Charges"
                 },
